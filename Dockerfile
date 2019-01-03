@@ -1,4 +1,4 @@
-FROM debian
+FROM ubuntu
 MAINTAINER Lasse Nielsen (lasse.nielsen.dk@gmail.com)
 COPY init.sh /root/init.sh
 RUN chmod a+x /root/init.sh
